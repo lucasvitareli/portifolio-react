@@ -3,10 +3,7 @@ import styled from 'styled-components';
 export const Card = styled.div`
     border: 1px solid #C1C1C1;
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-`
+    `
 
 export const LinkButton = styled.a`
     color: #fff;
@@ -17,5 +14,4 @@ export const LinkButton = styled.a`
     display: inline-block; 
     margin-top: 24px;
     text-align: center;
-    align-self: flex-end;
-`
+`    

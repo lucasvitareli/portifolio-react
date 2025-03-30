@@ -10,9 +10,8 @@ const EstiloGlobal = createGlobalStyle`
     }
 
     body {
-        background-color:rgb(225, 226, 222);
-        color: #333;
         padding-top: 80px;
+        pading-bottom: 80px;
 
         @media (max-width: 768px) {
             padding-top: 16px;

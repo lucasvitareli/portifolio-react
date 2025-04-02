@@ -8,6 +8,6 @@ img {
     height: 157px;
 
     @media (max-width: 768px) {
-        display: block;
-        margin: 0 auto;
+        width: 100%;
+        height: auto;    
 `

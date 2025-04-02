@@ -23,10 +23,10 @@ export const Description = styled(P)`
 `
 
 export const ThemeButton = styled.button`
-    background-color: #282A35;
+    background-color: ${(props) => props.theme.mainColor};
     font-size: 10px;
     font-weight: bold;
-    color: #eee;
+    color: ${(props) => props.theme.backgroundColor};
     border-radius: 12px;
     padding: 8px;
     cursor: pointer;

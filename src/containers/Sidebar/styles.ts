@@ -30,5 +30,5 @@ export const ThemeButton = styled.button`
     border-radius: 12px;
     padding: 8px;
     cursor: pointer;
-
+    margin-bottom: 40px;
     `
